@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A40AFCC8211F0F2800167577 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AFCC7211F0F2800167577 /* AppDelegate.m */; };
+		A40AFCCB211F0F2800167577 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AFCCA211F0F2800167577 /* ViewController.m */; };
+		A40AFCCE211F0F2800167577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40AFCCC211F0F2800167577 /* Main.storyboard */; };
+		A40AFCD1211F0F2800167577 /* FacebookPlayground.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A40AFCCF211F0F2800167577 /* FacebookPlayground.xcdatamodeld */; };
+		A40AFCD3211F0F2A00167577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40AFCD2211F0F2A00167577 /* Assets.xcassets */; };
+		A40AFCD6211F0F2A00167577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40AFCD4211F0F2A00167577 /* LaunchScreen.storyboard */; };
+		A40AFCD9211F0F2A00167577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A40AFCD8211F0F2A00167577 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A40AFCC3211F0F2800167577 /* FacebookPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40AFCC6211F0F2800167577 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A40AFCC7211F0F2800167577 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A40AFCC9211F0F2800167577 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A40AFCCA211F0F2800167577 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A40AFCCD211F0F2800167577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A40AFCD0211F0F2800167577 /* FacebookPlayground.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FacebookPlayground.xcdatamodel; sourceTree = "<group>"; };
+		A40AFCD2211F0F2A00167577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A40AFCD5211F0F2A00167577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A40AFCD7211F0F2A00167577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40AFCD8211F0F2A00167577 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40AFCC0211F0F2800167577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40AFCBA211F0F2800167577 = {
+			isa = PBXGroup;
+			children = (
+				A40AFCC5211F0F2800167577 /* FacebookPlayground */,
+				A40AFCC4211F0F2800167577 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40AFCC4211F0F2800167577 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A40AFCC3211F0F2800167577 /* FacebookPlayground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40AFCC5211F0F2800167577 /* FacebookPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				A40AFCC6211F0F2800167577 /* AppDelegate.h */,
+				A40AFCC7211F0F2800167577 /* AppDelegate.m */,
+				A40AFCC9211F0F2800167577 /* ViewController.h */,
+				A40AFCCA211F0F2800167577 /* ViewController.m */,
+				A40AFCCC211F0F2800167577 /* Main.storyboard */,
+				A40AFCD2211F0F2A00167577 /* Assets.xcassets */,
+				A40AFCD4211F0F2A00167577 /* LaunchScreen.storyboard */,
+				A40AFCD7211F0F2A00167577 /* Info.plist */,
+				A40AFCD8211F0F2A00167577 /* main.m */,
+				A40AFCCF211F0F2800167577 /* FacebookPlayground.xcdatamodeld */,
+			);
+			path = FacebookPlayground;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A40AFCC2211F0F2800167577 /* FacebookPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40AFCDC211F0F2A00167577 /* Build configuration list for PBXNativeTarget "FacebookPlayground" */;
+			buildPhases = (
+				A40AFCBF211F0F2800167577 /* Sources */,
+				A40AFCC0211F0F2800167577 /* Frameworks */,
+				A40AFCC1211F0F2800167577 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookPlayground;
+			productName = FacebookPlayground;
+			productReference = A40AFCC3211F0F2800167577 /* FacebookPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A40AFCBB211F0F2800167577 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Dimitar Danailov";
+				TargetAttributes = {
+					A40AFCC2211F0F2800167577 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A40AFCBE211F0F2800167577 /* Build configuration list for PBXProject "FacebookPlayground" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40AFCBA211F0F2800167577;
+			productRefGroup = A40AFCC4211F0F2800167577 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A40AFCC2211F0F2800167577 /* FacebookPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40AFCC1211F0F2800167577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40AFCD6211F0F2A00167577 /* LaunchScreen.storyboard in Resources */,
+				A40AFCD3211F0F2A00167577 /* Assets.xcassets in Resources */,
+				A40AFCCE211F0F2800167577 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A40AFCBF211F0F2800167577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40AFCD1211F0F2800167577 /* FacebookPlayground.xcdatamodeld in Sources */,
+				A40AFCCB211F0F2800167577 /* ViewController.m in Sources */,
+				A40AFCD9211F0F2A00167577 /* main.m in Sources */,
+				A40AFCC8211F0F2800167577 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A40AFCCC211F0F2800167577 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40AFCCD211F0F2800167577 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A40AFCD4211F0F2A00167577 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40AFCD5211F0F2A00167577 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A40AFCDA211F0F2A00167577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A40AFCDB211F0F2A00167577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A40AFCDD211F0F2A00167577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4TJCNW3L5;
+				INFOPLIST_FILE = FacebookPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dimitar.FacebookPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A40AFCDE211F0F2A00167577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4TJCNW3L5;
+				INFOPLIST_FILE = FacebookPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dimitar.FacebookPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A40AFCBE211F0F2800167577 /* Build configuration list for PBXProject "FacebookPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40AFCDA211F0F2A00167577 /* Debug */,
+				A40AFCDB211F0F2A00167577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40AFCDC211F0F2A00167577 /* Build configuration list for PBXNativeTarget "FacebookPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40AFCDD211F0F2A00167577 /* Debug */,
+				A40AFCDE211F0F2A00167577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A40AFCCF211F0F2800167577 /* FacebookPlayground.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A40AFCD0211F0F2800167577 /* FacebookPlayground.xcdatamodel */,
+			);
+			currentVersion = A40AFCD0211F0F2800167577 /* FacebookPlayground.xcdatamodel */;
+			path = FacebookPlayground.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A40AFCBB211F0F2800167577 /* Project object */;
+}
